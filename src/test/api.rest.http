@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:1020
+
+### Init
+GET {{baseUrl}}/auth/init
+
+### Register
+POST {{baseUrl}}/auth/register
+Content-Type: application/json  
+
+{
+  "email": "yhonax.qrz@gmail.com",
+  "username": "yhonax.qrz",
+  "password": "123"
+}
